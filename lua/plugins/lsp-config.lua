@@ -32,7 +32,7 @@ return {
       lspconfig.cssls.setup({})
       lspconfig.html.setup({})
       lspconfig.gleam.setup({})
-      lspconfig.slz.setup({})
+      lspconfig.zls.setup({})
 
       -- keymaps
       local buf = vim.lsp.buf
